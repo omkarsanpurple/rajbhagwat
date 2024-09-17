@@ -1,0 +1,878 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/dccd394e7f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sai Vadapav</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus">About Us</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service9">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimony">Testimonials</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- ----nav bar finish---- -->
+
+
+    <div class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="bb21.jpg" class="d-block w-100 ban" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="mb-4 ban1vada1">Welcome To <span class="text-danger">Sai</span> VadaPav</h1>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <button class="btn btn-danger mb-4" type="button">Contact Us</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="bb1.jpg" class="d-block w-100 ban " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="mb-4 ban1vada1">Welcome To <span class="text-primary">Sai</span> VadaPav</h1>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <button class="btn btn-danger mb-4" type="button">Contact Us</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="bb23.jpg" class="d-block w-100 ban" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="mb-4 ban1vada1">Welcome To <span class="text-Warning">Sai</span> VadaPav</h1>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <button class="btn btn-danger mb-4" type="button">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
+
+
+    <!-- banner finish -->
+
+    <!-- about us 1st section -->
+
+
+    <div class="container-fluid mt-4" id="aboutus">
+
+        <h1 class="text-center text-danger">Abous Us</h1>
+
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <img src="about.jpg" class="img-thumbnail" alt="...">
+
+            </div>
+            <div class="col-lg-6 col-sm-12 ">
+                <h2 class="text-center ">Toungue Tastes More</h2>
+                <p class="text-center">At Sai Vadapav, we're on a mission to spread the joy of one of Nagar's most
+                    iconic street foods – the beloved vada pav. Born on the bustling streets of Mumbai, vada pav has
+                    captured the hearts and taste buds of millions, and we're proud to bring its authentic flavors to
+                    you.
+                </p>
+                <p>Our journey began with a simple idea: to offer a taste of Mumbai's vibrant street food scene to food
+                    enthusiasts everywhere. Inspired by the bustling streets of Mumbai, where the aroma of freshly fried
+                    vadas and the sizzle of spicy chutneys fill the air, we set out to recreate that experience for our
+                    customers. From the moment you take your first bite, you'll understand why Sai Vadapav is considered
+                    the best in Nagar City. Our vadas are crispy on the outside, soft and flavorful on the inside,
+                    perfectly complemented by our signature chutneys and fluffy pav.</p>
+
+                <button type="button" class="btn btn-outline-dark readmore">Read More</button>
+
+            </div>
+        </div>
+
+        <!-- meet the founder -->
+
+        <div class="container-fluid mt-4">
+
+            <h2 class="text-center mb-4 mt-4">Meet the Founder</h2>
+            <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                    <h2 class="text-danger text-center">About Raj</h2>
+                    <p>Raj's journey began in a small kitchen, where he meticulously crafted the perfect Vadapav recipe.
+                        His dedication to quality, authenticity, and taste quickly set his Vadapavs apart. With a vision
+                        to share the beloved flavors of Mumbai with Nagar City, he started a humble food stall that soon
+                        gained immense popularity.</p>
+
+                    <div class="row mt-4">
+                        <div
+                            class="col-lg-6 col-sm-12 p-4 d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-square-poll-vertical"></i>
+                            <p class="text-center ms-2 me-2"> Mr. Bhagwat's commitment to excellence goes beyond just
+                                ingredients. He believes in
+                                creating a dining experience that resonates with tradition and warmth.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-solid fa-flag"></i>
+                            <p class="text-center ms-2 me-2"> Under his leadership, Sai Vadapav has grown from a local
+                                favorite to a celebrated name, known for its consistent quality and delightful taste.
+                                his ability to blend tradition with modern tastes.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="col-sm-12 col-lg-6">
+                    <img src="raju.jpg" class="rounded mx-auto d-block raj shadow" alt="...">
+                    <h4 class="text-center rad">Mr. Raj Bhagwat</h4>
+                    <p class="text-center rad2">Founder Of Sai Vadpav</p>
+                </div>
+            </div>
+
+            <!-- card section -->
+            <div class="container-fluid unique">
+
+                <h2 class="text-center">Our Speciality: <span>What Makes Us Unique</span></h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="vada11.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="vada2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="vada3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- our Vision-our mission -->
+
+            <div class="row bg-dark mt-4 mb-4">
+                <div class="col-lg-4 col-sm-12 mt-4 vision">
+                
+
+                    <h3 class="text-light visiontext mt-4">Our Vision</h3>
+                    <p class="text-light visionp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Excepturi
+                        magnam eos reiciendis ut
+                        earum maxime id.
+                    </p>
+                    <button type="button" class="btn btn-light vadabut">Know More</button>
+
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <img src="raj-about.png" class="img-fluid vadaimg" alt="...">
+                </div>
+                <div class="col-lg-4 col-sm-12 mt-4 mis">
+                    <h3 class="text-light mt-4 mission">Our Mission</h3>
+                    <p class="text-light mission">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magnam eos
+                        reiciendis ut
+                        earum maxime id.
+                    </p>
+                    <button type="button" class="btn btn-light missionbt">Know More</button>
+                </div>
+
+            </div>
+
+
+            <!-- our services -->
+            <div class="container-fluid " id="service9">
+                <h2 class="text-center text-danger">Our Services</h2>
+                <div class="row ">
+                    <div class="col-lg-4 col-sm-12 ">
+                        <div class="shadow m-2 p-3 service1">
+                            <i class="bi bi-hand-thumbs-up icon1 text-primary"></i>
+                            <h4 class="serv">Authentic</h4>
+                            <p>Experience the authentic taste of Ahmednagar with every bite of our Vadapavs. Made using
+                                traditional recipes and fresh, high-quality ingredients </p>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+
+                        <div class="shadow m-2 p-3 service1">
+
+                            <i class="bi bi-award-fill icon1 text-primary"></i>
+                            <h4 class="serv">Quality</h4>
+                            <p>We believe great Vadapavs start with great ingredients. That’s why we source only the
+                                freshest and finest ingredients for our recipes </p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-sm-12 ">
+
+                        <div class="shadow m-2 p-3 service1">
+
+                            <i class="bi bi-microsoft-teams icon1 text-primary"></i>
+                            <h4 class="serv">Team Effort</h4>
+                            <p>Teamwork fuels our spirit of innovation. We encourage our team members to share ideas and
+                                collaborate on new Vadapav creations and menu innovation </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mt-3">
+                    <div class="col-lg-4 col-sm-12 ">
+                        <div class="shadow m-2 p-3 service1">
+
+                            <!-- <i class="bi bi-hand-thumbs-up icon1 text-primary"></i> -->
+                            <i class="bi bi-house-check-fill icon1 text-primary"></i>
+                            <h4 class="serv">Home Delivery</h4>
+                            <p>Experience the authentic taste of Ahmednagar with every bite of our Vadapavs. Made using
+                                traditional recipes and fresh, high-quality ingredients </p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-sm-12 ">
+                        <div class="shadow m-2 p-3 service1">
+
+                            <!-- <i class="bi bi-award-fill icon1 text-primary"></i> -->
+                            <i class="bi bi-shop-window icon1 text-primary"></i>
+                            <h4 class="serv">Franchise Opportunities</h4>
+                            <p>We believe great Vadapavs start with great ingredients. That’s why we source only the
+                                freshest and finest ingredients for our recipes </p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="shadow m-2 p-3 service1">
+
+                            <!-- <i class="bi bi-microsoft-teams icon1 text-primary"></i> -->
+                            <i class="bi bi-truck icon1 text-primary"></i>
+                            <h4 class="serv">Bulk Orders</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum vitae quaerat doloribus
+                                soluta! Porro enim perspiciatis dolor dolorum </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- counter try -->
+
+        <div class="ccontainer">
+            <div>
+                <i class="fa fa-cutlery"></i>
+                <p class="counter">6</p>
+                <h4>Food Items</h4>
+            </div>
+
+            <div>
+                <i class="fa fa-pencil-square-o"></i>
+                <p class="counter">600</p>
+                <h4>Happy Customers</h4>
+            </div>
+
+            <div>
+                <i class="fa fa-pencil-square-o"></i>
+                <p class="counter">25</p>
+                <h4>Year Of Experience</h4>
+            </div>
+
+            <div>
+                <i class="fa fa-users"></i>
+                <p class="counter">250</p>
+                <h4>Daily Customers</h4>
+            </div>
+        </div>
+
+        <!-- Why Choose Us -->
+        <div class="container-fluid">
+
+            <h2 class="text-center mb-4 text-danger">Why Choose Us</h2>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <img src="why3.jpg" class="img-fluid rounded whychoose" alt="...">
+                </div>
+
+                <div class="col-lg-3 col-sm-12">
+                    <div class="text-center">
+                        <i class="bi bi-check2-circle why"></i>
+                        <h4>Authentic Flavors</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <div class="text-center">
+
+                        <i class="bi bi-exclude why"></i>
+                        <h4>Consistent Quality</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12">
+                    <div class="text-center">
+
+
+                        <i class="bi bi-ubuntu why"></i>
+                        <h4>Variety & Innovation</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <div class="text-center">
+
+                        <i class="bi bi-unity why"></i>
+                        <h4>Customizable Options</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Our Products section -->
+
+        <div class="container-fluid mt-4 mb-4" id="products">
+            <h2 class="text-center text-danger">Our Products</h2>
+            <p class="text-center prop">Delicious Moments, Unforgettable Events</p>
+
+            <div class="row">
+                <div class="col-lg-3 col-sm-12">
+                    <div class="m-1 shadow-lg pb-2">
+                        <img src="rajp.jpg" class="img-fluid rounded" alt="...">
+                        <h5 class="text-center mt-2 ">Khamang Vadapav</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12">
+                    <div class="m-1 shadow-lg pb-2">
+                        <img src="bhaje2.jpg" class="img-fluid rounded" alt="...">
+                        <h5 class="text-center mt-2 ">Delicious Bhaje</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12">
+                    <div class="m-1 shadow-lg pb-2">
+                        <img src="bread-patis2.jpg" class="img-fluid rounded" alt="...">
+                        <h5 class="text-center mt-2 ">Bread Patties</h5>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-12">
+                    <div class="m-1 shadow-lg pb-2">
+                        <img src="Samosas1.jpg" class="img-fluid rounded" alt="...">
+                        <h5 class="text-center mt-2 ">Samosas</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Frequently Asked Questions  -->
+
+        <div class="container-fluid">
+            <div class="row mb-4 pb-4">
+
+                <h2 class="text-center text-danger mb-4">Frequently Asked Questions</h2>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        1. What is Sai Vadapav?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Sai Vadapav is your go-to destination in Nagar City for
+                                        authentic Mumbai-style Vadapav. We offer a variety of Vadapavs, each made with
+                                        fresh ingredients and traditional recipes to ensure the best taste.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        2. Do you use fresh ingredients?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Absolutely! We take pride in using only the freshest and
+                                        highest-quality ingredients in all our Vadapavs to ensure exceptional taste and
+                                        quality.
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        3. Can I order online?
+
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Yes, you can easily place your order online through our
+                                        website and enjoy your favorite Vadapav delivered straight to your doorstep.
+
+                                    </div>
+
+
+                                    <!-- try -->
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        4. How can I place a bulk or party order?
+
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">For bulk or party orders, please visit our Website
+                                        contact page or contact us directly at 9657230516. We’ll be happy to assist you
+                                        in making your event special.</div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="accordion-item ">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed bg-light " type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        5. Do you have a customer loyalty program?
+
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Yes, we value our loyal customers. Join our Customer
+                                        Loyalty Program to earn points with every purchase, which you can redeem for
+                                        discounts and special rewards..</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-sm-12">
+                    <div>
+                        <img src="faq.jpg" class="img-fluid rounded faq" alt="...">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Client Testimonials -->
+        <div class="container-fluid" id="testimony">
+            <h2 class="text-center text-danger">Client Testimonials</h2>
+            <h5 class="text-center">What Our Class Says</h5>
+            <div class="row slider">
+                <div class="col-md-12 ">
+                    <div class="text-center shadow-lg p-3  m-3 testimonials">
+                        <img src="darshan.jpg" class="img-fluid testimg" alt="...">
+                        <h4>Darshan Apte</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius omnis neque vitae impedit
+                            reiciendis.</p>
+                            <i class="bi bi-facebook testicon"></i>
+                            <i class="bi bi-instagram testicon2"></i>
+                            <i class="bi bi-twitter testicon3"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="text-center shadow-lg p-3  m-3 testimonials">
+                        <img src="chikya1.jpg" class="img-fluid testimg" alt="...">
+                        <h4>Chiku Vairal</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius omnis neque vitae impedit
+                            reiciendis.</p>
+                            <i class="bi bi-facebook testicon"></i>
+                            <i class="bi bi-instagram testicon2"></i>
+                            <i class="bi bi-twitter testicon3"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="text-center shadow-lg p-3  m-3 testimonials">
+                        <img src="pranav.jpg" class="img-fluid testimg" alt="...">
+                        <h4>Pranav Lagad</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius omnis neque vitae impedit
+                            reiciendis.</p>
+                            <i class="bi bi-facebook testicon"></i>
+                            <i class="bi bi-instagram testicon2"></i>
+                            <i class="bi bi-twitter testicon3"></i>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-12">
+                    <div class="text-center shadow-lg p-3  m-3 testimonials">
+                        <img src="nikhil.jpg" class="img-fluid testimg" alt="...">
+                        <h4>Nikhil Gangale</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius omnis neque vitae impedit
+                            reiciendis.</p>
+                            <i class="bi bi-facebook testicon"></i>
+                            <i class="bi bi-instagram testicon2"></i>
+                            <i class="bi bi-twitter testicon3"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="text-center shadow-lg p-3  m-3 testimonials">
+                        <img src="omkar.jpg" class="img-fluid testimg" alt="...">
+                        <h4>Omkar Bhalekar</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius omnis neque vitae impedit
+                            reiciendis.</p>
+                            <i class="bi bi-facebook testicon"></i>
+                            <i class="bi bi-instagram testicon2"></i>
+                            <i class="bi bi-twitter testicon3"></i>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+                    <div class="text-center shadow-lg p-3  m-3 testimonials">
+                        <img src="anuj.jpg" class="img-fluid testimg" alt="...">
+                        <h4>Anuj Dhumane</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius omnis neque vitae impedit
+                            reiciendis.</p>
+                            <i class="bi bi-facebook testicon"></i>
+                            <i class="bi bi-instagram testicon2"></i>
+                            <i class="bi bi-twitter testicon3"></i>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- contact us section -->
+
+        <div class="container-fluid " id="contact">
+            <h2 class="text-center text-danger ">Contact Us</h2>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="ms-4">
+                        <h3 class="git">Get In Touch</h3>
+                        <h3 class="cwu">Connect With Us</h3>
+                        <p>
+                            At Sai Vadapav, we value our customers and are always here to help. We Accept Bulk Orders,
+                            feel free to reach out to us. Your satisfaction is our top priority.
+                        </p>
+
+                        <i class="bi bi-envelope ic2"></i>
+                        <h4 class="cont">Email Us</h4>
+                        <p class="cont1">info.saivadapav@gmail.com</p>
+
+
+                        <i class="bi bi-telephone-inbound-fill ic2"></i>
+                        <h4 class="cont">Call Us</h4>
+                        <p class="cont1">+91 9657230516</p>
+
+                        <i class="bi bi-clock ic2"></i>
+                        <h4 class="cont">Opening Hours</h4>
+                        <p class="cont3">Monday-Friday: 9:00 AM to 4:00 PM<br>
+                            Saturday: 9:00 AM to 10:00 PM <br>
+                            Sunday: Closed.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12 d-flex flex-column justify-content-center">
+                    <h5 class="mt-4">Have a Question? Fill the Form & Connect with Us!</h5>
+
+                    <div class="mb-3 mt-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Email">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Your Number">
+                    </div>
+
+                    <!-- <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Looking For</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>-Select-</option>
+                            <option value="1">Bulk Orders</option>
+                            <option value="2">Franchisee</option>
+                            
+                          </select>
+                    </div> -->
+
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Enter Your Message"></textarea>
+                    </div>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+
+                        <button class="btn btn-danger" type="button">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contat us map -->
+        <div class="container-fluid mt-4">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.225449689324!2d74.72992657381711!3d19.097763051291693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdcb089c6ea6b03%3A0xbcff4f8c7e247abc!2sDelhi%20Gate%2C%20Delhi%20Gate%20Rd%2C%20Sarjepura%20city%2C%20Ahmednagar%2C%20Maharashtra%20414001!5e0!3m2!1sen!2sin!4v1719599074063!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+        <!-- footer  -->
+
+
+        <div class="container-fluid bg-dark text-light p-4 mt-4 fc">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 ">
+                    <div class="me-4">
+                        <h4 class="mt-4">Contact</h4>
+                        <p><I>We are a team of designers and developers that create high quality Wordpress, Magento,
+                                Prestashop, Opencart.</I></p>
+                        <h5>Contact Info</h5>
+                        <i class="bi bi-facebook ficon"></i>
+                        <i class="bi bi-instagram ficon"></i>
+                        <i class="bi bi-twitter ficon"></i>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-sm-12 ">
+                    <div class="fmenu ">
+                        <h4 class="mt-4">Information</h4>
+                        <a href="">About Us</a>
+                        <a href="">Our Services</a>
+                        <a href="">FAQ</a>
+                        <a href="">Testimonials</a>
+                        <a href="">Contact</a>
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="col-lg-4 col-sm-12 ">
+                    <div class="fstn">
+                        <h4 class="mt-4">Subscribe To Newsletter</h4>
+                        <p>Subscribe to the Sai Vadapav mailing list to receive updates on new arrivals, special offers
+                            and other discount information.</p>
+
+                        <input type="text">
+                        <button type="button" class="btn btn-danger">Subscribe</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-dark pb-4">
+            <h6 class="text-center text-light">Copyright @ 2024 Sai Vadapav  Made with ❤️ by Omkar Bhalekar</h6>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+            integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+            integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+            integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- For Counter  -->
+        <script>
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        </script>
+
+
+        <!-- for carouesel try -->
+        <script type="text/javascript">
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+
+        </script>
+
+</body>
+
+</html>

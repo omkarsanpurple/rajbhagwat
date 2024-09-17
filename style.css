@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    
+  }
+
+
+  .remi{
+    font-size: 45px;
+  }
+
+  .banner{
+    background-image: url("");
+  }
+
+  .ban1vada{
+    color: rgb(13, 26, 102);
+  }
+
+  .ban1vada1{
+    color: rgb(221, 204, 155);
+    font-size: 70px;
+  }
+
+
+  .readmore{
+    display: block;
+    margin: auto;
+  }
+
+  .fa-square-poll-vertical{
+    font-size: 45px;
+    color: rgb(85, 12, 145);
+    margin-bottom: 10px;
+  }
+
+  .fa-flag{
+    font-size: 45px;
+    color: rgb(85, 12, 145);
+    margin-bottom: 10px;
+  }
+
+  .raj{
+    height: 375px;
+    
+  }
+
+  .raj{
+    transition: all 0.5s;
+  }
+
+  .raj:hover {
+    transform: skewX( 15deg) ;
+  
+  }
+
+  .rad{
+    color: rgb(49, 10, 122);
+    margin-top: 10px;
+  }
+
+  .rad2{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .unique h2{
+
+    color: rgb(123, 4, 4);
+
+  }
+
+  .unique span{
+
+    color: rgb(3, 14, 132);
+
+  }
+
+  /* .carousel-item{
+    background: rgb(0, 0, 0);
+    opacity: 0.8;
+  } */
+
+
+  .vadabut{
+    display: block;
+    margin-left:71% ;
+  }
+
+  @media only screen and (max-width: 430px) 
+{
+  .vadabut{
+    
+    display: block;
+    margin: auto;
+  }
+}
+
+  .vadaimg{
+    transition: all 0.6s;
+  }
+  .vadaimg:hover {
+    /* transform: skewX( 15deg) ; */
+    transform: rotate(15deg);
+    
+  
+  }
+
+  .icon1{
+    display: inline-block;
+    font-size: 40px;
+  }
+
+  .icon1:hover{
+    color: antiquewhite;
+
+  }
+
+  .serv{
+    display: inline-block;
+  }
+
+  .service1{
+    transition: all 0.9s;
+
+  }
+
+  .service1:hover h4{
+    color: white;
+
+  }
+
+  .service1:hover p{
+    color: rgb(255, 213, 77);
+
+  }
+
+  .service1:hover {
+    background-color: rgb(30, 29, 29);
+  }
+
+    /* Counter section */
+  .ccontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ccontainer i{
+    font-size: 35px;
+  }
+
+  .ccontainer p{
+    font-size: 50px;
+  }
+
+  .ccontainer h4{
+    font-size: 25px;
+  }
+
+
+  @media only screen and (max-width: 430px) 
+{
+  .ccontainer{
+    
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 430px) 
+{
+  .ccontainer h4{
+    
+    margin-bottom: 25px;
+  }
+}
+
+
+.ccontainer{
+  
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  margin-top: 50px;
+  
+}
+
+/* why chouse eus  */
+
+.why{
+  font-size: 45px;
+  color: rgb(87, 5, 142);
+}
+
+.whychoose{
+  transition: all 0.4s;
+}
+
+.whychoose:hover{
+  opacity: 0.8;
+}
+
+
+/* our products */
+
+.prop{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.faq{
+  height: 260px;
+}
+
+
+.testimg{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+
+/* contact us */
+
+.git{
+  font-size: 80px;
+  color: rgba(27, 16, 16, 0.151);
+  line-height: 0.9em;
+}
+
+.cwu{
+  color: rgb(0, 0, 0);
+  font-size: 34px;
+  margin-top: -42px;
+  margin-left: 5px;
+  z-index: 2;
+}
+
+.ic2{
+  font-size: 30px;
+  color: rgb(190, 20, 63);
+  
+  display: inline-block;
+}
+
+.cont{
+  display: inline-block;
+  font-size: 21px;
+  margin-left: 5px;
+  color: rgb(190, 20, 63);
+  /* margin-top: -40px; */
+}
+
+.cont1{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cont3 {
+  font-size: 18px;
+  font-weight: 500;
+     
+}
+
+
+/* ----footer---- */
+
+.ficon{
+  font-size: 22px;
+  margin-right: 5px;
+  color: aliceblue;
+  transition: all 0.6s;
+}
+
+
+.fmenu a{
+  display: block;
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+
+}
+
+.fstn input{
+   margin-right: -8px;
+   padding: 7px;
+   border-color: rgb(180, 180, 180);
+   background-color: rgb(51, 50, 50);
+   
+}
+
+.fstn button{
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-top: -5px;
+}
+
+.ficon:hover{
+ color: rgb(249, 222, 14);
+ 
+}
+
+@media only screen and (max-width: 430px) 
+{
+  .vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.visiontext{
+  text-align: end;
+}
+
+.visionp{
+  text-align: end;
+}
+
+@media only screen and (max-width: 430px) 
+{
+  .visionp{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 430px) 
+{
+  .visiontext{
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 430px) 
+{
+  .mission{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 430px) 
+{
+  .missionbt{
+    display: block;
+    margin: auto;
+    /* margin-bottom: 20px; */
+  }
+}
+
+@media only screen and (max-width: 430px) 
+{
+  .mis{
+    padding-bottom: 40px;
+  }
+}
+
+.testicon{
+  font-size: 25px;
+  color: blue;
+ margin-right: 5px;
+}
+
+.testicon2{
+  font-size: 25px;
+  color: rgb(203, 9, 9);
+ margin-right: 5px;
+}
+
+.testicon3{
+  font-size: 25px;
+  color: rgb(5, 8, 84);
+ margin-right: 5px;
+}
+
+/* .ban{
+  height: 600px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 430px) 
+{
+  ban{
+    height: 200px;
+    width: 100%;
+  }
+} */
+
+
+.testimonials{
+  transition: all 0.6s;
+}
+
+.testimonials:hover{
+  background-color: rgb(24, 23, 23);
+}
+
+.testimonials:hover h4{
+  color: rgb(235, 201, 28);
+}
+
+.testimonials:hover p{
+  color: aliceblue;
+}
+
+.testimonials:hover .testicon{
+  color: aliceblue;
+}
+
+.testimonials:hover .testicon2{
+  color: aliceblue;
+}
+
+.testimonials:hover .testicon3{
+  color: aliceblue;
+}
